@@ -1,0 +1,92 @@
+body {
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: 24% 56% 20%;
+    margin: 1%;
+    gap: 2px;
+}
+header {
+    justify-content: end;
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1;
+    align-items: center;
+    grid-template-columns: 45% 20% auto;
+    background-color: blue;
+    color: white;
+    font-family: "verdana,Geneva,san-serif";
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+}
+header img { 
+    width: 80px;
+    height: 80px;
+}
+nav {
+    background-color: darkcyan;
+    grid-column: 1/4;
+    text-align: end;
+    align-self: center;
+    align-items: stretch;
+    padding: 12px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+}
+main {
+    display: grid;
+    border: solid 1.5px black;
+    grid-column: 1;
+    justify-content: stretch;
+    justify-items: stretch;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: solid 3px black;
+}
+main section h1 {
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    background-color: darkcyan;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+    text-align: center;
+}
+main section button {
+    display: grid;
+    justify-items: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    border: solid 1px black;
+    border-radius: 11px;
+}  
+form {
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    display: grid;
+    align-content: stretch;
+    grid-column: 2/4;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1.5px black;
+    font-size: 20px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+}
+fieldset {
+    height: 86%;
+}
+footer {
+    display: flex;
+    grid-column: 1/4;
+    justify-content: space-around;
+    justify-self: auto;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 15px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+}
